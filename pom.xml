@@ -37,13 +37,13 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goal>install</goal>
-                    <autoVersionSubmodules>true</autoVersionSubmodules>mvn
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
         </plugins>
     </build>
     <scm>
-        <developerConnection>scm:git:git@github.com:sharvilgarg/new-pet-clinic.git</developerConnection>
+        <developerConnection>scm:git:https://github.com/sharvilgarg/new-pet-clinic.git</developerConnection>
       <tag>HEAD</tag>
   </scm>
 </project>
